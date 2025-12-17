@@ -5,16 +5,26 @@
 
 int main(){
 
-    // Status
+    // False can be 0 and True can be 1
 
-    bool isonline = True;
+    bool isonline = true;
+    bool powerstatus = false;
 
+    if(powerstatus)
+    {
+        printf("Your Power is On \n");
+    }
+    else{
+        printf("Your Power is Off \n");
+    }
+    
     if (isonline)
     {
-        printf("Your are Online");
+        printf("You are Online");
     }
-    else
-    
+    else{
+        printf("You are Offline");
+    }
 
     return 0;
 }
