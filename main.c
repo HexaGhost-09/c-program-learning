@@ -24,12 +24,24 @@ int main(){
     printf("The price is $%f \n", price);
     printf("The Temperature is %f \n", temp);
 
+    // double
+
     double pi =  3.14159265358979;
     double e = 2.7182818284590;
 
     printf("Value of Pi is %lf \n", pi);
     printf("full Value of Pi is %.15lf \n", pi);
     printf("full Value of e is %.15lf \n", e);
+
+    // Char they store single characters
+
+    char grade = 'A';
+    char symbol = '@';
+    char currency = '$';
+
+    printf("Your garde is %c \n", grade);
+    printf("Your email symbol is %c \n", symbol);
+    printf("One the currency from world is %c \n", currency);
 
     return 0;
 }
