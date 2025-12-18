@@ -66,5 +66,27 @@ int main(){
         printf("You are Offline");
     }
 
+    // flags and format specifiers
+
+    int num1 = 1;
+    int num2 = 10;
+    int num3 = 100;
+    int num4 = -1000;
+
+    printf("%3d \n",num1);
+    printf("%3d \n",num2);
+    printf("%3d \n",num3);
+
+    printf("%03d \n",num1);
+    printf("%+3d \n",num4);
+
+    float price1 = 23.4;
+    float price2 = 242.4;
+    float price3 = 9.79;
+
+    printf("%.2f \n",price1);
+    printf("%.2f \n",price2);
+    printf("%.2f \n",price3);
+
     return 0;
 }
