@@ -2,7 +2,7 @@
 
 int main(){
 
-    // Arithematic Operator +
+    // Arithematic Operator /
 
     int x = 2;
     float y = 3;
